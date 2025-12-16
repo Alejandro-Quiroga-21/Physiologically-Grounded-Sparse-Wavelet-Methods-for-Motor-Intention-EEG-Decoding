@@ -1,0 +1,2 @@
+# Physiologically-Grounded-Sparse-Wavelet-Methods-for-Motor-Intention-EEG-Decoding
+Python code for physiologically grounded sparse wavelet feature extraction and classification of EEG motor intention for rehabilitation-oriented BCIs. The repository includes DAS-OMP, WPT-LDB, dyadic wavelet and PSD baselines, preprocessing pipelines, and evaluation scripts used to reproduce the experiments reported in the associated study.
