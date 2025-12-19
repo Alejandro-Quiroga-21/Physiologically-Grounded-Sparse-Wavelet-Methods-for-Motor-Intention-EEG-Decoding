@@ -46,14 +46,5 @@ The proposed pipeline consists of the following stages:
 
 3. **Classification**
    - Support Vector Machine (SVM)
-   - Inter-subject evaluation
-
-4. **Statistical Analysis**
-   - Accuracy and sensitivity metrics
-   - Friedman and Wilcoxon tests with correction
-
-5. **Examples Pipeline**
-   - End-to-end examples covering preprocessing, feature extraction,
-   classification, and evaluation stages.
 
 ---
