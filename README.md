@@ -1,6 +1,6 @@
 # Physiologically-Grounded-Sparse-Wavelet-Methods-for-Motor-Intention-EEG-Decoding
 
-<img src="assets/abstract_pipeline.png" alt="BCI Pipeline" width="800"/>
+<img src="assets/abstract_pipeline.png" alt="BCI Pipeline" width="400"/>
 
 
 This repository contains the code associated with the article:
@@ -10,7 +10,7 @@ This repository contains the code associated with the article:
 This work proposes a feature extraction framework based on sparse wavelet representations with discriminative atom selection (DAS-OMP), evaluated against Wavelet Packet with Loccal Discriminant Basis, Dyadic Wavelet and Power Spectral Density baselines. The framework is motivated by the neurophysiology of transient β-burst activity and targets improved motor
 intention decoding under realistic clinical constraints.
 
-# Dataset: https://zenodo.org/records/17980608
+### Dataset: https://zenodo.org/records/17980608
 ---
 
 ## Motivation
