@@ -29,7 +29,6 @@ This repository implements a **Physiologically Grounded Sparse Representation** 
 
 ## Method Overview
 
-![Method Overview](assets/method_overview.png)
 
 The proposed pipeline consists of the following stages:
 
