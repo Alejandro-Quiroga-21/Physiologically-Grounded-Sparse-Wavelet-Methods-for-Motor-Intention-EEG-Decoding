@@ -1,2 +1,27 @@
 # Physiologically-Grounded-Sparse-Wavelet-Methods-for-Motor-Intention-EEG-Decoding
-Python code for physiologically grounded sparse wavelet feature extraction and classification of EEG motor intention for rehabilitation-oriented BCIs. The repository includes DAS-OMP, WPT-LDB, dyadic wavelet and PSD baselines, preprocessing pipelines, and evaluation scripts used to reproduce the experiments reported in the associated study.
+
+![BCI Pipeline](assets/abstract_pipeline.png)
+
+This repository contains the code associated with the article:
+
+**Physiologically Grounded Sparse Features Enhance Motor Intention Classification for Rehabilitation Brain–Computer Interfaces**
+
+This work proposes a feature extraction framework based on sparse wavelet representations with discriminative atom selection (DAS-OMP), evaluated against Wavelet Packet with Loccal Discriminant Basis, Dyadic Wavelet and Power Spectral Density baselines. The framework is motivated by the neurophysiology of transient β-burst activity and targets improved motor
+intention decoding under realistic clinical constraints.
+
+---
+
+## Motivation
+
+Electroencephalography (EEG)-based Brain–Computer Interfaces (BCIs) for motor rehabilitation face severe practical constraints, including:
+
+- a limited number of EEG channels,
+- few calibration trials,
+- high inter-subject variability,
+- and the transient nature of motor-related neural activity.
+
+Traditional spectral approaches (e.g., PSD) rely on stationarity assumptions and tend to obscure short-lived motor-related events. While wavelet-based methods introduce time–frequency localization, they remain constrained by fixed bases and rigid tiling.
+
+This repository implements a **Physiologically Grounded Sparse Representation** that explicitly models **transient β-burst events** using wavelet dictionaries and Orthogonal Matching Pursuit, enabling improved sensitivity and interpretability for rehabilitation-oriented BCIs.
+
+---
